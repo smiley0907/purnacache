@@ -75,6 +75,7 @@ public class TestAddCache {
             String uri = DistributedCache.getCacheFilesByIndex(job, i);
             System.out.println(uri);
         }
+   
     }
     
     public static void manipulateNCache() throws URISyntaxException, IOException
