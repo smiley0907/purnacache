@@ -8,7 +8,7 @@ package org.apache.hadoop.filecache;
 /**
  * N-way set associative cache implementation Class.
  * 
- * @author panchal
+ * @author PurnachandraRao
  */
 public class NSetCacheExample {
     public static void main(String[] args) {
