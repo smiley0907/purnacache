@@ -7,7 +7,7 @@ package org.apache.hadoop.filecache;
 /**
  * Sample client cache implementation based on NSetCache library.
  * 
- * @author panchal
+ * @author PurnachandraRao
  */
 public class ClientCache extends NSetCache {
     
