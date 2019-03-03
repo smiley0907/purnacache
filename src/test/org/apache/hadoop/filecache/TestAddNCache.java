@@ -14,6 +14,12 @@ import org.apache.hadoop.fs.Path;
 
 import com.sun.org.apache.xerces.internal.impl.dv.dtd.NMTOKENDatatypeValidator;
 
+/**
+ * DistributedCache usage
+ * 
+ * @author PurnachandraRao
+ */
+
 public class TestAddNCache {
 
     private static final int LOCAL_CACHE_LIMIT = 5 * 1024; // 5K
