@@ -8,7 +8,7 @@ package org.apache.hadoop.filecache;
  * Abstraction of N-way set associative cache implementation.
  * Public Interface.
  *
- * @author panchal
+ * @author PurnachandraRao
  */
 public interface Cache {
 
