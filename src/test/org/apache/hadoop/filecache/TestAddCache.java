@@ -27,16 +27,16 @@ public class TestAddCache {
 //        JobConf job = new JobConf();
 //        job.setLong("local.cache.size", LOCAL_CACHE_LIMIT);
 //
-//        // DistributedCache.addCacheArchive(new URI("C:/purna/indir/mytar.tar"),
+//        // DistributedCache.addCacheArchive(new URI("/home/hduser/mytar.tar"),
 //        // job);
 //        // DistributedCache.addCacheArchive(new
-//        // URI("C:/purna/indir/mytar1.tar"), job);
+//        // URI("/home/hduser/mytar1.tar"), job);
 //        // DistributedCache.addFileToClassPath(new
-//        // Path("C:/purna/indir/mytar1.tar"), job);
+//        // Path("/home/hduser/mytar1.tar"), job);
 //        // DistributedCache.addFileToClassPath(new
-//        // Path("C:/purna/indir/mytar.tar"), job);
+//        // Path("/home/hduser/mytar.tar"), job);
 //        
-//        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile.txt"), job);
+//        DistributedCache.addCacheFile(new URI("/home/hduser/myFile.txt"), job);
 //        URI[] localArchives = DistributedCache.getCacheFiles(job);
 //
 //        System.out.println(localArchives);
@@ -64,17 +64,17 @@ public class TestAddCache {
         JobConf job = new JobConf();
         job.setLong("local.cache.size", LOCAL_CACHE_LIMIT);
 
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile1.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile2.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile3.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile4.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile5.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile6.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile7.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile8.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile9.txt"), job);
-        DistributedCache.addCacheFile(new URI("C:/purna/indir/myFile10.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile1.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile2.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile3.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile4.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile5.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile6.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile7.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile8.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile9.txt"), job);
+        DistributedCache.addCacheFile(new URI("/home/hduser/myFile10.txt"), job);
         URI[] localArchives = DistributedCache.getCacheFiles(job);
         
         for (int i = 0; i < 11; i++) {
@@ -91,17 +91,17 @@ public class TestAddCache {
         Cache job = new NSetCache(20);
 
         URI[] uris = new URI[11];
-        uris[0] = new URI("C:/purna/indir/myFile.txt");
-        uris[1] = new URI("C:/purna/indir/myFile1.txt");
-        uris[2] = new URI("C:/purna/indir/myFile2.txt");
-        uris[3] = new URI("C:/purna/indir/myFile3.txt");
-        uris[4] = new URI("C:/purna/indir/myFile4.txt");
-        uris[5] = new URI("C:/purna/indir/myFile5.txt");
-        uris[6] = new URI("C:/purna/indir/myFile6.txt");
-        uris[7] = new URI("C:/purna/indir/myFile7.txt");
-        uris[8] = new URI("C:/purna/indir/myFile8.txt");
-        uris[9] = new URI("C:/purna/indir/myFile9.txt");
-        uris[10] = new URI("C:/purna/indir/myFile10.txt");
+        uris[0] = new URI("/home/hduser/myFile.txt");
+        uris[1] = new URI("/home/hduser/myFile1.txt");
+        uris[2] = new URI("/home/hduser/myFile2.txt");
+        uris[3] = new URI("/home/hduser/myFile3.txt");
+        uris[4] = new URI("/home/hduser/myFile4.txt");
+        uris[5] = new URI("/home/hduser/myFile5.txt");
+        uris[6] = new URI("/home/hduser/myFile6.txt");
+        uris[7] = new URI("/home/hduser/myFile7.txt");
+        uris[8] = new URI("/home/hduser/myFile8.txt");
+        uris[9] = new URI("/home/hduser/myFile9.txt");
+        uris[10] = new URI("/home/hduser/myFile10.txt");
         
         DistributedCache.setCacheFilesNSet(uris, job);
         
