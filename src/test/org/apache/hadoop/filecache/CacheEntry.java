@@ -7,7 +7,7 @@ package org.apache.hadoop.filecache;
 /**
  * This class defines Single Cache Entry Structure.
  * 
- * @author panchal
+ * @author PurnachandraRao
  */
 public class CacheEntry {
     
