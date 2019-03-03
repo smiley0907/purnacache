@@ -12,6 +12,11 @@ import org.apache.hadoop.fs.Path;
 
 import junit.framework.TestCase;
 
+/**
+ * DistributedCache Test
+ * 
+ * @author PurnachandraRao
+ */
 public class TestDistributedCache extends TestCase {
 
 	static final URI LOCAL_FS = URI.create("file:///");
