@@ -10,6 +10,12 @@ import java.util.Date;
 import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.fs.Path;
 
+/**
+ * DistributedCache usage
+ * 
+ * @author PurnachandraRao
+ */
+
 public class TestAddCache {
 
     private static final int LOCAL_CACHE_LIMIT = 5 * 1024; // 5K
