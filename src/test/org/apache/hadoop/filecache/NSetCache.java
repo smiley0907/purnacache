@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 /**
  * N-way set associative cache implementation Class.
  * 
- * @author panchal
+ * @author PurnachandraRao
  */
 public class NSetCache implements Cache {
 
