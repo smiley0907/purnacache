@@ -16,7 +16,7 @@ import org.jgrapht.Graph;
  * directed graphs.
  *
  * @author  PurnachandraRao
- * @since 2008-01-17
+ * @since 2017-03-17
  */
  
  public class FullyConnected
