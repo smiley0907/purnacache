@@ -22,7 +22,7 @@ import com.sun.org.apache.xerces.internal.impl.dv.dtd.NMTOKENDatatypeValidator;
 
 public class TestAddNCache {
 
-    private static final int LOCAL_CACHE_LIMIT = 5 * 1024; // 5K
+    private static final int LOCAL_CACHE_LIMIT = 5 * 1024;  // 5K
 
     public static void main(String[] args) throws IOException, URISyntaxException {
 
